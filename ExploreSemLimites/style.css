@@ -1,0 +1,281 @@
+:root {
+    font-size: 62.5%; /* 10px */
+}
+
+/*
+Content (Conteúdo): É o conteúdo dentro da caixa, neste caso, a frase "Content inside the box".
+
+Padding (Preenchimento): É o espaço entre o conteúdo e a borda da caixa. No exemplo, definimos um preenchimento de 20px.
+
+Border (Borda): É a linha que circunda a caixa. Definimos uma borda azul de 2px de espessura.
+
+Margin (Margem): É o espaço entre a borda da caixa e outros elementos na página. Neste exemplo, há uma margem de 20px em todos os lados da caixa.
+
+Width (Largura) e Height (Altura): São as dimensões da caixa.
+
+*/
+
+body {
+    max-width: 144rem;
+    font-family:"Mulish", sans-serif;
+    margin: 0; 
+}
+
+.explore {
+    background-color: #F9F4FB;
+    text-align: left;
+             
+}
+   
+header {
+    display: flex; /*alinhamento do astronauta à direita do campo explore sem limites*/
+    align-content: center;
+    margin-left: 10.9rem;
+    height: 83.6rem;
+     
+}
+
+#head {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    margin: 0 auto 10.6rem;
+    height: 100vh;
+    
+}
+
+  h1 {
+    font-size: 5.8rem;
+    font-weight: 900;
+    color: #B52184;
+    line-height: normal;
+    margin-right: 2.8rem;
+    margin-top: 31.2rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #312D64;
+    margin-top: 0.8rem;
+}
+
+#astronauta {
+    height: 73.2rem;
+    width: 71.9rem;
+    align-content: right;
+    
+}
+
+#seta {
+    margin-top: 17.9rem;
+    padding-bottom: 15rem;
+}
+
+main {
+    background-color: #343193;
+    background-size: 57.6rem; /*tamanho do backgound daquela div main*/
+    text-align: center;
+    left: 0;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    text-align:justify;
+    gap: 6rem;
+    padding: 6.4rem;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+   
+}
+
+#PlanetYellow {
+    background-color: #FFFFFF;
+    border-radius: 2.4rem;
+    height: 44.8rem;
+    width: 36.6rem;
+    padding: 3.2rem 3.2rem 0;
+    
+}
+
+#PlanetBlue {
+    background-color: #FFFFFF;
+    border-radius: 2.4rem;
+    height: 44.8rem;
+    width: 36.6rem;
+    padding: 3.2rem 3.2rem 0;
+    
+}
+
+#PlanetPink {
+    background-color: #FFFFFF;
+    border-radius: 2.4rem;
+    height: 44.8rem;
+    width: 36.6rem;
+    padding: 3.2rem 3.2rem 0;
+    
+}
+
+p {
+    color: #B52184;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+a {
+    color: #312D64;
+    font-size: 1.9rem;
+    height: 600;
+}
+
+fieldset {
+    
+    border: none;
+    margin: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 9.2rem;
+
+    text-align: justify;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+legend {
+    color: #B52184;
+    font-weight: 500;
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+    
+}
+
+.input-wrapper {
+    width: 59.5rem;
+    height: 42.2rem;
+    border-bottom: 2.4rem;
+    padding-left: 10.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.input-wrapper label {
+    margin-bottom: 2.4rem; 
+}
+
+.input-wrapper input {
+    gap: 2.4rem;
+    width: 54.2rem;
+    height: 4.8rem;
+    border-color: #312D64;
+    border-style:groove;
+    text-decoration: solid;
+    border: 0.15rem;
+    border-radius: 1.6rem;
+    text-align: left;
+    padding: 1.6rem 0 1.6rem 5rem;
+     
+
+}
+
+
+#event-text {
+    padding-left: 1.6rem;
+    padding-bottom: 9.7rem;
+    width: 57.6rem;
+    border-color: #312D64;
+ 
+
+}
+
+
+
+
+#icone {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+label {
+    font-size: 1.6ren;
+    height: 600;
+    color: #312D64;
+ }
+
+button {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    height: bold;
+    text-align: center;
+    background-color: #343193;
+    height: 4.5rem;
+    width: 15.1rem;
+    border-radius: 1.6rem;
+    border: none;
+    padding: 1.6rem 1.05rem 1.6rem;
+}
+
+button:hover {
+    background-color: #5B55A9;
+    
+}
+
+.stars {
+    width: 64.4rem;
+    height: 61.2rem;
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+footer {
+    
+    background-color: #343193;
+    background-size: 7.8rem;
+    width: 100%;
+    
+}
+
+footer h2 {
+    color: #FFFFFF;
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 3.2rem;
+    margin: 0;
+}
+
+/* para incluir palavras/textos/img  dentro do campo do formulário */
+
+.input-with-name {
+    background-image: url(./img/person.png);
+    background-size: 2.4rem; 
+    background-repeat: no-repeat;
+    background-position: 1.4rem center;
+
+}
+
+
+
+.input-with-email {
+    background-image: url(./img/at.png);
+    background-size: 2.4rem; 
+    background-repeat: no-repeat;
+    padding-right: 1.4rem;
+    background-position: 1.4rem center;
+}
+
+
