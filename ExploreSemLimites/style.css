@@ -16,9 +16,10 @@ Width (Largura) e Height (Altura): São as dimensões da caixa.
 */
 
 body {
-    max-width: 144rem;
+    width: 100%;
     font-family:"Mulish", sans-serif;
     margin: 0; 
+
 }
 
 .explore {
